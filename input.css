@@ -1,0 +1,36 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+#input{
+ margin-top: 20px;
+ width: 250px;
+ height: 35px;
+ border: none;
+ border-radius: 20px;
+ box-shadow: 0 0 15px #b4b4b4, 0 0 10px #b4b4b4, 0 0 0px #b4b4b4;
+ text-align: center;
+ outline: none;
+ font-size: 16px;
+ font-family: Verdana, sans-serif;
+ user-select: inherit;
+ transition: 0.6s;
+
+}
+#input:focus{
+    box-shadow: 0 0 15px#1abc9c, 0 0 10px #1abc9c, 0 0 0px #1abc9c;
+    width: 70%;
+    height: 40px;
+    transition: 0.6s;
+}
+#btn{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    text-shadow: 0 0 15px#1abc9c, 0 0 10px #1abc9c, 0 0 0px #1abc9c ;
+}
